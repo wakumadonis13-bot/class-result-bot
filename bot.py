@@ -49,7 +49,11 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f"🆔 {row['ID']}\n"
                 f"📊 {row['Mark']}\n"
                 f"━━━━━━━━━━━━━━\n"
-                f"🏫 Class Representative"
+                f"🏫╔════════════════════╗
+  Wakuma D.
+  SE_Section 3
+  Class Representative
+╚════════════════════╝"
             )
         else:
             await update.message.reply_text("❌ ID not found")
