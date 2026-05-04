@@ -17,7 +17,7 @@ def clean(x):
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🎓 DLD LAB. REPORT RESULT OUT OF 15\n\nSelect an option:",
+        "🎓 DLD LAB REPORT RESULT OUT OF 15\n\nSelect an option:",
         reply_markup=reply_markup
     )
 
